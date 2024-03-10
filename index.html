@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Media</title>
+    <link rel="stylesheet" href="style.css" media="all" type="text/css"> <!-- media can be screen, print etc-->
+</head>
+
+<body>
+    <div class="user-media">
+        <section class="option-section">
+            <button id="share-mic-camera" class="option gray-bg">Share mic and camera</button>
+            <button id="show-video" class="option gray-bg">Show Video</button>
+            <button id="stop-video" class="option gray-bg">Stop Video</button>
+            <div class="screen-size">
+                <button id="change-ss" class="option gray-bg">Change screen size</button>
+                <div class="screen-size-ip">
+                    <input type="text" class="ss-input" id="vid-width" value="1280">
+                    <input type="text" class="ss-input" id="vid-height" value="720">
+                </div>
+            </div>
+            <button id="start-recording" class="option gray-bg">Start Recording</button>
+            <button id="stop-recording" class="option gray-bg">Stop Recording</button>
+            <button id="play-recording" class="option gray-bg">Play Recording</button>
+            <button id="share-screen" class="option gray-bg">Share Screen</button>
+        </section>
+
+        <section class="feed-section">
+            <div class="feed-detail">
+                <h2>My Feed</h2>
+                <video id="my-feed-video" class="feed-video-display" autoplay playsinline></video>
+            </div>
+            <div class="feed-detail">
+                <h2>Recorded Feed</h2>
+                <video id="recorded-feed-video" class="feed-video-display" autoplay playsinline></video>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="changeBtn.js"></script>
+    <script src="changeVideoSize.js"></script>
+    <script src="screenRecorder.js"></script>
+    <script src="shareScreen.js"></script>
+</body>
+
+</html>

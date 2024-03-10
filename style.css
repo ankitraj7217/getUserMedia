@@ -1,0 +1,72 @@
+.user-media {
+    display: flex;
+    width: 100%;
+}
+
+.option-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    width: 20%;
+}
+
+.option-section .option {
+    width: 10rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.screen-size {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+
+.screen-size-ip {
+    display: flex;
+}
+
+.ss-input {
+    width: 2.5rem;
+    height: 1rem;
+    margin: 0.5rem;
+}
+
+.green-bg {
+    background-color: green;
+    color: white;
+}
+
+.red-bg {
+    background-color: red;
+    color: white;
+}
+
+.blue-bg {
+    background-color: blue;
+    color: white;
+}
+
+.grey-bg {
+    background-color: gray;
+}
+
+.feed-section {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.feed-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-video-display {
+    width: 75%;
+    height: 25rem;
+    background-color: gray;
+    border-radius: 0.25rem;
+}
